@@ -1,0 +1,100 @@
+.duo-image-zoomer .image-zoomer-wrap{
+  position: relative;
+}
+.duo-image-zoomer img {
+  object-fit: cover;
+}
+.duo-image-zoomer .origin-image {
+  width: 100%;
+  height: 100%;
+}
+.duo-image-zoomer .zoomer-inner .zoomer-viewer {
+  cursor: pointer;
+  overflow: hidden;
+  position: absolute;
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.duo-image-zoomer .zoomer-outer .zoomer-lens {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 1px solid #666;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  background: #fff;
+  cursor: move;
+}
+.duo-image-zoomer .zoomer-outer .zoomer-viewer {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 320px;
+  overflow: hidden;
+  top: 0;
+}
+.duo-image-zoomer .zoomer-outer .zoomer-viewer .zoomer-viewer-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.duo-image-zoomer .zoomer-thumbnail {
+  position: relative;
+  margin-top: 10px;
+  text-align: center;
+  overflow: hidden;
+  color: #fff;
+}
+.duo-image-zoomer .zoomer-thumbnail .zoomer-thumbnail-control {
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  position: absolute;
+}
+.duo-image-zoomer .zoomer-thumbnail .zoomer-thumbnail-prev {
+  left: 0%;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border-right: 8px solid #cfcfcf;
+  border-bottom: 12px solid transparent;
+  border-top: 12px solid transparent;
+}
+.duo-image-zoomer .zoomer-thumbnail .zoomer-thumbnail-next {
+  right: 0%;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border-left: 8px solid #cfcfcf;
+  border-bottom: 12px solid transparent;
+  border-top: 12px solid transparent;
+}
+.duo-image-zoomer .zoomer-thumbnail ul {
+  overflow: hidden;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.duo-image-zoomer .zoomer-thumbnail .zoomer-thumbnail-list {
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+}
+.duo-image-zoomer .zoomer-thumbnail .item {
+  margin-right: 5px;
+  list-style-type: none;
+  float: left;
+  border: 2px solid transparent;
+}
+.duo-image-zoomer .zoomer-thumbnail .item:last-child {
+  margin-right: 0px;
+}
+.duo-image-zoomer .zoomer-thumbnail .item.current {
+  border: 2px solid #fff;
+}
+.duo-image-zoomer .zoomer-thumbnail .item .zoomer-thumbnail-image {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "duo-image-zoomer",
+  "version": "1.0.2",
+  "description": "a image zoomer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zoom",
+    "zoomer",
+    "image zoom",
+    "image zoomer",
+    "image-zoom",
+    "image-zoomer",
+    "magnifier",
+    "image magnifier",
+    "image-magnifier"
+  ],
+  "author": "duofuni",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duofuni/duo-image-zoomer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/duofuni/duo-image-zoomer/issues"
+  },
+  "homepage": "https://github.com/duofuni/duo-image-zoomer#readme"
+}
